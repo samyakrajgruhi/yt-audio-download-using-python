@@ -9,7 +9,7 @@ def download_audio_with_ytdlp(youtube_url, save_path):
             "preferredcodec": "mp3",
             "preferredquality": "192",
         }],
-        "ffmpeg_location": "C:\\Users\\samya\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-7.1-full_build\\bin",
+        "ffmpeg_location": "<YOU_NEED_TO_PUT_FFMPEG_PATH_HERE>",                    ### PUT FFMPEG PATH HERE ###
         "outtmpl": os.path.join(save_path, "%(title)s.%(ext)s"),
     }
 
