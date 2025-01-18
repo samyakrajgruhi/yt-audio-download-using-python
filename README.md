@@ -1,4 +1,4 @@
-
+![yt-audio-download-using-python](https://socialify.git.ci/samyakrajgruhi/yt-audio-download-using-python/image?font=Raleway&language=1&name=1&owner=1&pattern=Transparent&theme=Dark)
 # YouTube Audio Downloader
 
 This Python script allows you to download audio from a YouTube video or an entire playlist in MP3 format. It uses the yt-dlp library and FFmpeg for audio extraction. You can specify a custom folder for saving the downloaded audio files.
