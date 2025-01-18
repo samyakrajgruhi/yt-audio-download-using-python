@@ -1,4 +1,4 @@
-# "THIS CODE WILL NOT WORK UNTIL YOU SET THE CORRECT FFMPEG PATH" so please check how to do it first ->
+# "THIS CODE WILL NOT WORK UNTIL YOU SET THE CORRECT FFMPEG PATH" so please check how to do it first -> [Installation](#installation)
 ![yt-audio-download-using-python](https://socialify.git.ci/samyakrajgruhi/yt-audio-download-using-python/image?font=KoHo&language=1&name=1&pattern=Transparent&theme=Dark)
 # YouTube Audio Downloader
 
