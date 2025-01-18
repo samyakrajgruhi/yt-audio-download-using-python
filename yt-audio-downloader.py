@@ -9,7 +9,7 @@ def download_audio_with_ytdlp(youtube_url, save_path):
             "preferredcodec": "mp3",
             "preferredquality": "192",
         }],
-        "ffmpeg_location": "<YOU_NEED_TO_PUT_FFMPEG_PATH_HERE>",                    ### PUT FFMPEG PATH HERE ###
+        "ffmpeg_location": "<YOU_NEED_TO_PUT_FFMPEG_PATH_HERE>",      ### PUT FFMPEG PATH HERE ###
         "outtmpl": os.path.join(save_path, "%(title)s.%(ext)s"),
     }
 
