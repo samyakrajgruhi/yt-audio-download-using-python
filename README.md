@@ -69,6 +69,28 @@ Example for Linux:
 ```
 - Ensure the folder exists or the script will create it automatically.
 
+### How to set path for ffmpeg :
+1. Re-open Command Prompt as admin/Terminal after installing ffmpeg and run :
+```bash
+where ffmpeg
+```
+2.  Now copy the path till bin.
+- For example: In my system, the output was ->
+```bash
+C:\Users\user\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-7.1-full_build\bin\ffmpeg.exe
+```
+- Then i will just copy -> 
+```bash
+C:\Users\user\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-7.1-full_build\bin
+```
+or simply just remove 'ffmpeg.exe' from the end
+
+3. Now replace this with <YOU_NEED_TO_PUT_FFMPEG_PATH_HERE> in the script.
+
+4. Now you can either replace every \ (backslash) with \\\ in the path string or write path as -> r"YOUR_FFMPEG_PATH"
+
+5. If it doesnt show any warnings or errors on running the script then you are good to go or else you probably missed something, if not then [Contribute](#contributing).
+
 
 ## IMPORTANT
 
